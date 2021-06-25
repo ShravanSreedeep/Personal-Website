@@ -306,7 +306,7 @@ img{
 
 /* ===== WORK =====*/
 .work__container{
-  row-gap: 2rem;
+  row-gap: 2rem; 
 }
 .work__img{
   box-shadow: 0 4px 25px rgba(14,36,49,.15);
