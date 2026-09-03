@@ -1,329 +1,156 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="description" content="Shravan Sreedeep — Senior Software Engineer focused on automotive platform software, signal abstraction and mode management.">
+  <title>Shravan Sreedeep — Automotive Platform Software</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<div class="grid-bg"></div>
 
-        <link rel="stylesheet" href="assets/css/styles.css">
-        <link rel="shortcut icon" type="image/png" href="assets/img/slogo.jpg"
-        <!-- =====BOX ICONS===== -->
-        <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
+<header>
+  <nav class="nav wrap">
+    <a href="#top" class="brand"><span>SS</span> SHRAVAN SREEDEEP</a>
+    <button class="menu" aria-label="Open navigation"><i></i><i></i></button>
+    <div class="links">
+      <a href="#about">About</a>
+      <a href="#platform">Platform</a>
+      <a href="#journey">Journey</a>
+      <a href="#work">Work</a>
+      <a href="#contact">Contact</a>
+    </div>
+    <a class="nav-button" href="mailto:shravansreedeep2000@gmail.com">CONNECT ↗</a>
+  </nav>
+</header>
 
-        <title>Shravan Sreedeep Portfolio</title>
-    </head>
-    <body>
-        <!--===== HEADER =====-->
-        <header class="l-header">
-            <nav class="nav bd-grid">
-                <div>
-                    <a href="#" class="nav__logo">Shravan Sreedeep</a>
-                </div>
+<main id="top">
+<section class="hero wrap">
+  <div class="hero-copy">
+    <div class="kicker"><b></b> AUTOMOTIVE SOFTWARE / PLATFORM ENGINEERING</div>
+    <h1>I build the layer<br>that makes vehicle<br><em>software work.</em></h1>
+    <p class="intro">Senior Software Engineer working on automotive computing platforms — translating vehicle signals into usable software interfaces, handling platform modes and states, and building dependable foundations for higher-level vehicle functions.</p>
+    <div class="actions">
+      <a class="primary" href="#platform">SEE THE PLATFORM <span>↓</span></a>
+      <a class="secondary" href="https://www.linkedin.com/in/shravansreedeep" target="_blank" rel="noreferrer">LINKEDIN ↗</a>
+    </div>
+    <div class="stats">
+      <div><strong>04+</strong><small>YEARS ENGINEERING</small></div>
+      <div><strong>C++</strong><small>CORE LANGUAGE</small></div>
+      <div><strong>ADAS</strong><small>COMPUTING DOMAIN</small></div>
+    </div>
+  </div>
 
-                <div class="nav__menu" id="nav-menu">
-                    <ul class="nav__list">
-                        <li class="nav__item"><a href="#home" class="nav__link active">Home</a></li>
-                        <li class="nav__item"><a href="#about" class="nav__link">About</a></li>
-                        <li class="nav__item"><a href="#skills" class="nav__link">Skills</a></li>
-                        <li class="nav__item"><a href="#experience" class="nav__link">Responsibilities</a></li>
-                        <li class="nav__item"><a href="#internship" class="nav__link">Internship</a></li>
-                        <li class="nav__item"><a href="#certifications" class="nav__link">Certifications</a></li>
-                        <li class="nav__item"><a href="#projects" class="nav__link">Projects</a></li>
-                        <li class="nav__item"><a href="#contact" class="nav__link">Address</Address></a></li>
-                    </ul>
-                </div>
+  <div class="architecture">
+    <div class="arch-head"><span>PLATFORM / SYSTEM VIEW</span><span class="online">● ONLINE</span></div>
+    <div class="signal-row">
+      <span class="port">VEHICLE<br>SIGNALS</span>
+      <div class="signal-wire"><i></i><i></i><i></i><i></i><i></i></div>
+    </div>
+    <div class="arch-layer signal">
+      <span class="num">01</span><div><b>SIGNAL ABSTRACTION</b><small>Normalize · expose · translate</small></div><strong>→</strong>
+    </div>
+    <div class="wire"></div>
+    <div class="arch-layer core">
+      <span class="num">02</span><div><b>PLATFORM LAYER</b><small>Services · states · interfaces</small></div><strong>↕</strong>
+    </div>
+    <div class="mode-panel">
+      <span>MODE MANAGER</span>
+      <div class="modes"><i>INIT</i><i class="active">RUN</i><i>DEGRADED</i><i>SAFE</i></div>
+    </div>
+    <div class="wire"></div>
+    <div class="arch-layer app">
+      <span class="num">03</span><div><b>HIGHER-LEVEL FUNCTIONS</b><small>ADAS / applications</small></div><strong>→</strong>
+    </div>
+    <div class="telemetry"><span>STATE <b>RUN</b></span><span>INTERFACE <b>STABLE</b></span><span>BUILD <b>PASS</b></span></div>
+  </div>
+</section>
 
-                <div class="nav__toggle" id="nav-toggle">
-                    <i class='bx bx-menu'></i>
-                </div>
-            </nav>
-        </header>
+<section class="statement">
+  <div class="wrap statement-inner">
+    <span class="section-no">00 / THE IDEA</span>
+    <p>The vehicle has thousands of signals.<br><em>The platform gives them meaning.</em></p>
+  </div>
+</section>
 
-        <main class="l-main">
-            <!--===== HOME =====-->
-            <section class="home bd-grid" id="home">
-                <div class="home__data">
-                    <h1 class="home__title">Hi,<br>I'am <span class="home__title-color">Shravan Sreedeep</span></h1>
-                    <a href="mailto:shravansreedeep2000@gmail.com?subject=Mail from my website" class="button">Contact</a>
-                </div>
+<section id="about" class="section wrap">
+  <div class="section-head"><span>01 / ABOUT</span><i></i></div>
+  <div class="two-col">
+    <h2>Not just writing<br>code. <em>Building<br>the foundation.</em></h2>
+    <div class="copy">
+      <p>My engineering path started with Electrical & Electronics Engineering and evolved through software, embedded systems and automotive development.</p>
+      <p>Today my focus is <strong>platform software</strong>: the layer between vehicle-level signals and the software functions that consume them. I work with abstractions, interfaces, modes, state handling, integration and verification.</p>
+      <p>The interesting problems are the ones where software has to behave correctly not only in the happy path, but across transitions, dependencies and system conditions.</p>
+    </div>
+  </div>
+</section>
 
-                <div class="home__social">
-                    <a href="https://www.linkedin.com/in/shravansreedeep" class="home__social-icon" target="_blank"><i class='bx bxl-linkedin'></i></a>
-                    <a href="https://github.com/ShravanSreedeep" class="home__social-icon" target="_blank"><i class='bx bxl-github' ></i></a>
-                </div>
+<section id="platform" class="section platform-section">
+  <div class="wrap">
+    <div class="section-head"><span>02 / PLATFORM ENGINEERING</span><i></i></div>
+    <div class="platform-title"><h2>What I work<br><em>close to.</em></h2><p>A technical snapshot of the problems and layers that define my current direction.</p></div>
+    <div class="cap-grid">
+      <article><label>01</label><div class="cap-icon">⇄</div><h3>Signal<br>Abstraction</h3><p>Working between raw vehicle information and stable software-facing interfaces, keeping consumers independent from underlying signal details.</p><div class="tags"><span>SIGNALS</span><span>INTERFACES</span><span>ABSTRACTION</span></div></article>
+      <article><label>02</label><div class="cap-icon">◈</div><h3>Mode & State<br>Handling</h3><p>Platform behaviour changes with system conditions. I work with modes, transitions and the logic that keeps platform behaviour predictable.</p><div class="tags"><span>MODES</span><span>STATE</span><span>TRANSITIONS</span></div></article>
+      <article><label>03</label><div class="cap-icon">⌘</div><h3>Platform<br>Software</h3><p>Building software beneath higher-level functions with a focus on interfaces, services, integration and system-level behaviour.</p><div class="tags"><span>C++</span><span>ADAPTIVE AUTOSAR</span><span>ACP</span></div></article>
+      <article><label>04</label><div class="cap-icon">✓</div><h3>Verification &<br>Integration</h3><p>Making platform behaviour measurable and repeatable through verification, automation and CI-oriented engineering workflows.</p><div class="tags"><span>ASPICE</span><span>SWE.6</span><span>JENKINS</span></div></article>
+    </div>
+    <div class="toolchain"><span>ENGINEERING TOOLCHAIN</span><div><b>C++14/17</b><b>Linux</b><b>Adaptive AUTOSAR</b><b>R-Car</b><b>QEMU</b><b>EB SDK</b><b>tresos ITA</b><b>Jenkins</b></div></div>
+  </div>
+</section>
 
-                <div class="home__img">    
-                    <img src="assets/img/perfilme.png" alt="">
-                </div>
-            </section>
+<section id="journey" class="section wrap">
+  <div class="section-head"><span>03 / JOURNEY</span><i></i></div>
+  <h2 class="journey-title">A progression from<br><em>diagnostics to platform.</em></h2>
+  <div class="timeline">
+    <article class="current"><div class="date">APR 2026 — NOW</div><div class="dot"></div><div><span>CARIAD · VOLKSWAGEN GROUP</span><h3>Senior Software Engineer</h3><p>Focused on automotive computing platform development, signal abstraction, platform behaviour and mode handling within an ADAS-oriented software environment.</p><ul><li>Platform-level C++ software</li><li>Signal abstraction and software-facing interfaces</li><li>Mode/state handling and integration</li><li>Verification aligned with SWE.6</li></ul></div></article>
+    <article><div class="date">AUG 2022 — APR 2026</div><div class="dot"></div><div><span>CONTINENTAL / AUMOVIO</span><h3>Automotive Software Engineer</h3><p>Built experience in automotive embedded software, with earlier work centered around diagnostics and verification before moving deeper toward platform-oriented engineering.</p><div class="impact"><b>56h</b><small>saved per PIPE through automation</small></div></div></article>
+    <article><div class="date">JAN — JUN 2022</div><div class="dot"></div><div><span>INCTURE</span><h3>Engineering Intern</h3><p>Early professional software engineering experience before entering the automotive domain.</p></div></article>
+    <article><div class="date">ENGINEERING FOUNDATION</div><div class="dot"></div><div><span>GOVERNMENT COLLEGE OF ENGINEERING KANNUR</span><h3>B.Tech · Electrical & Electronics Engineering</h3><p>The foundation that connected electronics, systems thinking and programming — eventually leading into automotive software.</p></div></article>
+  </div>
+</section>
 
-            <!--===== ABOUT =====-->
-            <section class="about section " id="about">
-                <h2 class="section-title">About</h2>
+<section id="work" class="section work-section">
+  <div class="wrap">
+    <div class="section-head"><span>04 / SELECTED WORK</span><i></i></div>
+    <div class="work-intro"><h2>Before platform,<br>I built <em>systems.</em></h2><p>Earlier projects still matter because they show how I approach hardware, software, automation and problem solving.</p></div>
+    <div class="projects">
+      <a class="project featured" href="https://drive.google.com/file/d/1K_Emsd-fLQuzIUlKf76bGokXe3RBnsjT/view?usp=sharing" target="_blank" rel="noreferrer"><div class="project-visual"><small>01 / ROBOTICS</small><div class="wheel"></div><b>SMART<br>WHEELCHAIR</b></div><div class="project-text"><span>COMPUTER VISION · EMBEDDED</span><h3>Smart Wheelchair</h3><p>Eye-tracking controlled wheelchair and home automation prototype with an emphasis on accessibility and environmental awareness.</p><strong>VIEW PROJECT ↗</strong></div></a>
+      <a class="project" href="https://github.com/ShravanSreedeep/EMG_muscle_sensor_Artificial_human_hand" target="_blank" rel="noreferrer"><div class="project-visual"><small>02 / EMBEDDED</small><div class="wave"></div></div><div class="project-text"><span>ROBOTICS · SENSORS</span><h3>EMG Controlled Hand</h3><p>Robotic hand controlled through EMG signals with multiple operating modes.</p><strong>GITHUB ↗</strong></div></a>
+      <a class="project" href="https://github.com/ShravanSreedeep/Smart_Floor_Cleaner" target="_blank" rel="noreferrer"><div class="project-visual"><small>03 / ROBOTICS</small><div class="bot"></div></div><div class="project-text"><span>AUTONOMOUS SYSTEM</span><h3>Smart Floor Cleaner</h3><p>An autonomous robot prototype designed to clean room floors.</p><strong>GITHUB ↗</strong></div></a>
+      <a class="project" href="https://github.com/ShravanSreedeep/coronavirus-tracker/" target="_blank" rel="noreferrer"><div class="project-visual"><small>04 / SOFTWARE</small><div class="api">API<br><em>200 OK</em></div></div><div class="project-text"><span>BACKEND · SPRING BOOT</span><h3>Corona Tracker API</h3><p>Backend API built to learn service design, JSON data and API testing.</p><strong>GITHUB ↗</strong></div></a>
+    </div>
+  </div>
+</section>
 
-                <div class="about__container bd-grid">
-                    <div class="about__img">
-                        <img src="assets/img/aboutme.jpeg" alt="">
-                    </div>
-                    
-                    <div>
-                        <h2 class="about__subtitle">I'am Shravan Sreedeep</h2>
-                        <p class="about__text">I am a skilled programmer familiar on working with databases and applications. Specializing in object oriented programming, data structure, algorithms and database management system. I am collaborative and productive with excellent planning, leading and communication abilities.</p>           
-                    </div>                                   
-                </div>
-            </section>
+<section class="section principles wrap">
+  <div class="section-head"><span>05 / ENGINEERING MINDSET</span><i></i></div>
+  <div class="principles-grid">
+    <div><b>01</b><h3>Abstract complexity.</h3><p>Consumers should not need to understand every detail underneath the interface.</p></div>
+    <div><b>02</b><h3>Design for transitions.</h3><p>Real systems change modes. Robust behaviour means handling the transition, not just the steady state.</p></div>
+    <div><b>03</b><h3>Verify what matters.</h3><p>Automation and repeatable verification turn system behaviour into engineering confidence.</p></div>
+  </div>
+</section>
 
-            <!--===== SKILLS =====-->
-            <section class="skills section" id="skills">
-                <h2 class="section-title">Skills</h2>
+<section id="contact" class="contact">
+  <div class="wrap">
+    <span class="section-no">06 / CONTACT</span>
+    <h2>Let's build what<br>comes <em>next.</em></h2>
+    <p>Interested in automotive platform engineering, systems software or a technically difficult problem?</p>
+    <div class="contact-links">
+      <a href="mailto:shravansreedeep2000@gmail.com">shravansreedeep2000@gmail.com ↗</a>
+      <a href="https://www.linkedin.com/in/shravansreedeep" target="_blank" rel="noreferrer">LINKEDIN ↗</a>
+      <a href="https://github.com/ShravanSreedeep" target="_blank" rel="noreferrer">GITHUB ↗</a>
+    </div>
+  </div>
+</section>
+</main>
 
-                <div class="skills__container bd-grid">     
-                    <div>              
-                        <img src="assets/img/code.jfif" alt="" class="skills__img">
-                    </div>     
-                    <div>
-                        <h2 class="skills__subtitle">Professional Skills</h2>
-                        <p class="skills__text"><!--later give something--></p>
-                        <div class="skills__data">
-                            <div class="skills__names">
-                                <i class='bx bx-chart skills__icon'></i>
-                                <span class="skills__name">Knowledge in Matlab, Excel, VS code and Arduino.</span>
-                            </div>
-                            <div class="skills__bar skills__html"></div>
-                            <!--<div>
-                                <span class="skills__percentage">95%</span>
-                            </div>-->
-                        </div>
-                        <div class="skills__data">
-                            <div class="skills__names">
-                                <i class='bx bx-cloud skills__icon'></i>
-                                <span class="skills__name">Handled MySQL, Google Firebase, Arduino Programming and OpenCV</span>
-                            </div>
-                            <div class="skills__bar skills__css"></div>
-                            <!--<div>
-                                <span class="skills__percentage">85%</span>
-                            </div>-->
-                        </div>
-                        <div class="skills__data">
-                            <div class="skills__names">
-                                <i class='bx bx-code skills__icon' ></i>
-                                <span class="skills__name">Knowledge in Java, C/C++, Python and Dart</span>
-                            </div>
-                            <div class="skills__bar skills__js"></div>
-                            <!--<div>
-                                <span class="skills__percentage">65%</span>
-                            </div>-->
-                        </div>
-                        <div class="skills__data">
-                            <div class="skills__names">
-                                <i class='bx bxs-paint skills__icon'></i>
-                                <span class="skills__name">Knowledge in Flutter app development</span>
-                            </div>
-                            <div class="skills__bar skills__ux"></div>
-                            <!--<div>
-                                <span class="skills__percentage">85%</span>
-                            </div>-->
-                        </div>
-                    </div>
-                    
-                    
-                </div>
-            </section>
-
-            <!--===== RESPONSIBILITIES =====-->
-            <section class="skills section" id="experience">
-                <h2 class="section-title">Responsibilities</h2>
-
-                <div class="skills__container bd-grid">  
-                       
-                    <div>
-                        
-                        <h2 class="skills__subtitle">Positions</h2>
-                        <p class="skills__text"><!--later give something--></p>
-                        <div class="skills__data">
-                            <div class="skills__names">
-                                <i class='bx bx-briefcase skills__icon'></i>
-                                <span class="skills__name">STUDENT PLACEMENT COORDINATOR <br> 05/2021 – Current <br>Government College of Engineering Kannur</span>
-                            </div>
-                            <div class="skills__bar skills__html"></div>
-                            <!--<div>
-                                <span class="skills__percentage">95%</span>
-                            </div>-->
-                        </div>
-                        <div class="skills__data">
-                            <div class="skills__names">
-                                <i class='bx bx-command skills__icon'></i>
-                                <span class="skills__name">ISTE EEE FORUM EXECUTIVE <br> 09/2020 – Current<br>ISTE GCE Kannur</span>
-                            </div>
-                            <div class="skills__bar skills__css"></div>
-                            <!--<div>
-                                <span class="skills__percentage">85%</span>
-                            </div>-->
-                        </div>
-                        <h2 class="skills__subtitle">Volunteering</h2>
-                        <p class="skills__text"><!--later give something--></p>
-                        <div class="skills__data">
-                            <div class="skills__names">
-                                <i class='bx bxs-paint skills__icon' ></i>
-                                <span class="skills__name">Placement Brochure Volunteer <br> Placement cell GEC Kannur <br> 09/2020 – 12/2020</span>
-                            </div>
-                            <div class="skills__bar skills__js"></div>
-                            <!--<div>
-                                <span class="skills__percentage">65%</span>
-                            </div>-->
-                        </div>
-                        <div class="skills__data">
-                            <div class="skills__names">
-                                <i class='bx bx-envelope skills__icon'></i>
-                                <span class="skills__name">Volunteer <br> IEEE SB GECK <br>10/2020 – Current</span>
-                            </div>
-                            <div class="skills__bar skills__ux"></div>
-                            <!--<div>
-                                <span class="skills__percentage">85%</span>
-                            </div>-->
-                        </div>
-                        <div class="skills__data">
-                            <div class="skills__names">
-                                <i class='bx bx-envelope skills__icon'></i>
-                                <span class="skills__name">Volunteer <br> National Service Scheme <br>09/2016 – 03/2018</span>
-                            </div>
-                            <div class="skills__bar skills__ux"></div>
-                            <!--<div>
-                                <span class="skills__percentage">85%</span>
-                            </div>-->
-                        </div>
-                    </div>
-                    <div>              
-                        <img src="assets/img/leader.jpg" alt="" class="skills__img">
-                    </div>     
-                    
-                </div>
-            </section>
-
-            <!--===== INTERNSHIPS =====-->
-            <section class="skills section" id="internship">
-                <h2 class="section-title">Internship</h2>
-
-                <div class="skills__container bd-grid">     
-                    <div>              
-                        <img src="assets/img/intern.jpg" alt="" class="skills__img">
-                    </div>     
-                    <div>
-                         <div class="skills__data">
-                            <a href="https://incture.com/" target="_blank"><div class="skills__names">
-                                <i><img src="assets/img/incture.jpg"></i></a>
-                                <span class="skills__name"><b>Incture </b><br>Banglore<br> 01/2022 – 06/2022 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
-                            </div>
-                            <div class="skills__bar skills__js"></div>
-                        </div>
-                        <div class="skills__data">
-                            <a href="https://www.enfonolabs.com/" target="_blank"><div class="skills__names">
-                                <i><img src="assets/img/enfono.jfif"></i></a>
-                                <span class="skills__name"><b>Enfono Labs</b> <br>Darmashala<br> 04/2019 – 09/2019 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
-                            </div>
-                            <div class="skills__bar skills__js"></div>
-                        </div>
-                    </div>
-                    
-                    
-                </div>
-            </section>
-
-            <!--===== CERTIFICATIONS =====-->
-            <section class="work section" id="certifications">
-                <h2 class="section-title">Certifications</h2>
-
-                <div class="work__container bd-grid">
-                    <div class="work__img">
-                        <a href="http://coursera.org/verify/9RA59N8W38QJ" target="_blank"><img src="assets/img/coursera.jpeg" alt=""></a>Web Scraping with python + BeautifulSoup | Coursera
-                    </div>
-                    <div class="work__img">
-                        <a href="https://www.kaggle.com/learn/certification/shravansreedeep/intro-to-machine-learning" target="_blank"><img src="assets/img/kaggle.jpeg" alt=""></a>Introduction to Machine Learning | Kaggle
-                    </div>
-                    <div class="work__img">
-                        <a href="http://ude.my/UC-C8XNTX0X" target="_blank"><img src="assets/img/udemy.jpg" alt=""></a>Artificial Intelligence Concepts | Udemy
-                    </div>
-                    <div class="work__img">
-                        <a href="http://ude.my/UC-C20W8F0V" target="_blank"><img src="assets/img/udemy.jpg" alt=""></a>Learn machine learning algorithms | Udemy
-                    </div>
-                    <div class="work__img">
-                        <a href="https://certificate.iirs.gov.in/" target="_blank"><img src="assets/img/isro.jpg" alt=""></a>Advances in SAR-Polarimetry & Interferometry | ISRO
-                    </div>
-                    <div class="work__img">
-                        <a href="https://www.kaggle.com/learn/certification/shravansreedeep/python" target="_blank"><img src="assets/img/kaggle.jpeg" alt=""></a>Introduction to Python | Kaggle
-                    </div>
-                </div>
-            </section>
-
-            <!--===== PROJECTS =====-->
-            <section class="work section" id="projects">
-                <h2 class="section-title">Projects</h2>
-
-                <div class="work__container bd-grid">
-                    <div class="work__img">
-                        <a href="https://drive.google.com/file/d/1K_Emsd-fLQuzIUlKf76bGokXe3RBnsjT/view?usp=sharing" target="_blank"><img src="assets/img/14406526.jpg" alt=""></a><b>SMART WHEELCHAIR</b>
-                        <br>An automated working prototype of a smart wheelchair and home automation system that can be controlled by eye-tracking. The prototype is designed for paralyzed people with only motor functions for eye movement. We are also considering making aware of surrounding obstructions and making decisions accordingly.
-                    </div>
-                    
-                    <div class="work__img">
-                        <a href="https://github.com/ShravanSreedeep/coronavirus-tracker/" target="_blank"><img src="assets/img/a747ecad0b645c508a482b8b0fd32a1f.jpg" alt=""></a><b>Corona Tracker</b>
-                        <br>An API to track the latest active corona cases around the world is developed here. The API is able to provide JSON data containing the state, country, and its latest active cases. It also provides total cases worldwide and individual cases in each country. Java Springboot framework is used for this project and the API is tested using the Postman API platform. The project was made in order to learn the fundamentals of the spring-boot framework and API.
-                    </div>
-                    <div class="work__img">
-                        <a href="https://github.com/ShravanSreedeep/Bank_Management_System" target="_blank"><img src="assets/img/bank.jpg" alt=""></a><b>BANK MANAGEMENT SYSTEM WITH JAVA </b><br>A database management system that can be used to register and/or login to an account, transfer money and store details.
-                    </div>
-                    <div class="work__img">
-                        <a href="https://github.com/ShravanSreedeep/EMG_muscle_sensor_Artificial_human_hand" target="_blank"><img src="assets/img/robot.jpg" alt=""></a><b>MUSCLE CONTROLLED ARTIFICIAL HUMAN HAND</b>
-                        <br>Robotic hand that can be controlled by EMG sensors with different modes for different needs.
-                    </div>
-                    <div class="work__img">
-                        <a href="https://github.com/ShravanSreedeep/gigoapp" target="_blank"><img src="assets/img/gigo.png" alt=""></a><b>GIGO APP</b>
-                        <br>The app allows a person to scan a QRcode generated by a shop keeper’s account and log entry to the shop.
-                    </div>
-                    <div class="work__img">
-                        <a href="https://github.com/ShravanSreedeep/Smart_Floor_Cleaner" target="_blank"><img src="assets/img/cleaner.jpg" alt=""></a><b>SMART FLOOR CLEANER</b>
-                        <br>A robot that clean room floors automatically.
-                    </div>
-                    
-                </div>
-            </section>
-
-            <!--===== ADDRESS =====-->
-            
-            <section class="contact section" id="contact">
-                <h2 class="section-title">Address</Address></h2>
-                
-                <div class="contact__container bd-grid">
-                    <!--<form action="" class="contact__form">
-                        <input type="text" placeholder="Name" class="contact__input">
-                        <input type="mail" placeholder="Email" class="contact__input">
-                        <textarea name="" id="" cols="0" rows="10" class="contact__input"></textarea>
-                        <input type="button" value="Send" class="contact__button button"></a>
-                    </form>-->
-                    <div style="height: 500px; width: 100%;">
-                    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3902.278190096897!2d75.3712522!3d12.0243593!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ba43f962d055f1f%3A0xe4f444b7a188a496!2zMTLCsDAxJzMwLjgiTiA3NcKwMjInMjMuMyJF!5e0!3m2!1sen!2sin!4v1658468228211!5m2!1sen!2sin" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-                    </div>
-                </div>
-            </section>
-        </main>
-
-        <!--===== FOOTER =====-->
-        <footer class="footer">
-            <p class="footer__title">Shravan Sreedeep</p>
-            <div class="footer__social">
-                <a href="https://www.facebook.com/shravan.sreedeep" class="footer__icon" target="_blank"><i class='bx bxl-facebook' ></i></a>
-                <a href="https://www.instagram.com/shravan_sreedeep/" class="footer__icon" target="_blank"><i class='bx bxl-instagram' ></i></a>
-                
-            </div>
-            <p>&#169; 2022 copyright all right reserved</p>
-        </footer>
-
-
-        <!--===== SCROLL REVEAL =====-->
-        <script src="https://unpkg.com/scrollreveal"></script>
-
-        <!--===== MAIN JS =====-->
-        <script src="assets/js/main.js"></script>   
-        
-        
-    </body>
+<footer class="wrap footer"><span>© 2026 SHRAVAN SREEDEEP</span><span>AUTOMOTIVE PLATFORM SOFTWARE</span><a href="#top">BACK TO TOP ↑</a></footer>
+<script src="script.js"></script>
+</body>
 </html>
